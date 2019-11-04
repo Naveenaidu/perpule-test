@@ -13,11 +13,14 @@ We'll pass the username and password here to fetch the Token. This token would t
 This is a POST method
 
 **Rest Endpoint**: https://perpule-test-256018.appspot.com/webapi/authentication
+
 **Request Type**: POST
+
 **Headers**:
 ```
 	Content-Type : application/json
 ```
+
 **Request Body**:
 _Please choose the type as JSON_
 ```
@@ -34,7 +37,9 @@ For the test of Security - Ignore the token field when sending the request or Ju
 won't be able to access it. 
 
 **Rest Endpoint**: https://perpule-test-256018.appspot.com/webapi/customers
+
 **Request Type**: GET
+
 **Headers**:
 ```
 	Content-Type : application/json
@@ -52,7 +57,9 @@ won't be able to access it.
 **Rest Endpoint**: `https://perpule-test-256018.appspot.com/webapi/get-customer/<id_number>`
 
 **Eg**: https://perpule-test-256018.appspot.com/webapi/get-customer/2
+
 **Request Type**: GET
+
 **Headers**:
 ```
 	Content-Type : application/json
@@ -73,11 +80,14 @@ The table of Customer has the following fields:
 6. phone
 
 **Rest Endpoint**: https://perpule-test-256018.appspot.com/webapi/add-customer
+
 **Request Type**: POST
+
 **Headers**:
 ```
 	Content-Type : application/json
 ```
+
 **Request Body**:
 _Please choose the type as JSON_
 ```
